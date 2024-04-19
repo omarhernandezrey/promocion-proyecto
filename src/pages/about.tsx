@@ -1,5 +1,4 @@
 import React from "react";
-import todoImage from "../../public/images/todo.png"; // Ruta de importación actualizada
 
 const About = () => {
   return (
@@ -15,13 +14,7 @@ const About = () => {
               Nuestra misión es proporcionarte las herramientas adecuadas para que puedas mantener tus proyectos en orden, nunca olvides una tarea importante y te mantengas siempre un paso adelante en tus metas personales y profesionales.
             </p>
           </div>
-          <div className="lg:w-1/2">
-            <img
-              src={todoImage}
-              alt="Acerca de Mi App de Tareas"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
+          {/* Eliminé el bloque de imagen */}
         </div>
       </div>
       <div className="mt-12 bg-white py-12">
@@ -45,3 +38,4 @@ const About = () => {
 };
 
 export default About;
+

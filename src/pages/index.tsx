@@ -1,7 +1,8 @@
+import React from 'react';
 import Link from 'next/link';
-import type { NextPage } from 'next';
+import Image from 'next/image'; // Importa Image desde next/image
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div>
       <section className="hero bg-blue-500 text-white p-8">
@@ -9,7 +10,8 @@ const Home: NextPage = () => {
           <h1 className="text-4xl font-bold mb-4">Bienvenido a Mi App de Tareas</h1>
           <p className="mb-6">Organiza tu vida, mejora tu productividad con facilidad.</p>
           <Link href="/signup" className="inline-block bg-white text-blue-500 py-2 px-6 rounded-lg font-medium text-lg">
-            <img src="/public/images/todo.png" alt="" />Regístrate Gratis
+            <Image src="/images/todo.png" alt="Regístrate Gratis" width={20} height={20} />
+            Regístrate Gratis
           </Link>
         </div>
       </section>
@@ -37,7 +39,7 @@ const Home: NextPage = () => {
       <section className="testimonials py-12 bg-white">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">Lo Que Dicen Nuestros Usuarios</h2>
-          <p className="text-center text-lg italic">"Esta aplicación ha revolucionado mi forma de trabajar y organizar mi vida diaria." - Usuario Satisfecho</p>
+          <p className="text-center text-lg italic">&quot;Esta aplicación ha revolucionado mi forma de trabajar y organizar mi vida diaria.&quot; - Usuario Satisfecho</p>
         </div>
       </section>
     </div>

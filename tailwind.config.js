@@ -1,5 +1,5 @@
 // Importación de tipos desde el paquete de Tailwind CSS
-import type { Config } from 'tailwindcss';
+import { Config } from 'tailwindcss';
 
 // Definición de la configuración de Tailwind CSS usando TypeScript
 const config: Config = {
