@@ -37,7 +37,7 @@ const CustomForm = () => {
         </Form.Group>
         <Form.Group controlId="textarea">
           <Form.ControlLabel>Textarea</Form.ControlLabel>
-          <Form.Control rows={5} name="textarea" accepter={Textarea} className="rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 w-full" />
+          <Form.Control name="textarea" accepter={Textarea} className="rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200 w-full" />
         </Form.Group>
         <Form.Group>
           <ButtonToolbar>

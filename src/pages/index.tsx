@@ -57,18 +57,18 @@ const Home = () => {
       </section>
 
       <section className="testimonials py-12 bg-gray-900 text-white">
-  <div className="container mx-auto">
-    <h2 className="text-4xl font-bold text-center mb-8">Lo Que Dicen Nuestros Usuarios</h2>
-    <div className="max-w-3xl mx-auto">
-      <div className="p-6 bg-gray-800 rounded-lg shadow-md mb-8">
-        <p className="text-lg italic">
-          "Esta aplicación ha revolucionado mi forma de trabajar y organizar mi vida diaria. La facilidad de uso y las características avanzadas realmente marcan la diferencia. ¡Gracias por crear una herramienta tan increíble!" - Usuario Satisfecho
-        </p>
-      </div>
-      {/* Agrega más testimonios aquí si es necesario */}
-    </div>
-  </div>
-</section>
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-8">Lo Que Dicen Nuestros Usuarios</h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="p-6 bg-gray-800 rounded-lg shadow-md mb-8">
+              <p className="text-lg italic">
+                &quot;Esta aplicación ha revolucionado mi forma de trabajar y organizar mi vida diaria. La facilidad de uso y las características avanzadas realmente marcan la diferencia. ¡Gracias por crear una herramienta tan increíble!&quot; - Usuario Satisfecho
+              </p>
+            </div>
+            {/* Agrega más testimonios aquí si es necesario */}
+          </div>
+        </div>
+      </section>
 
 
 
