@@ -6,10 +6,17 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-8 lg:mb-0">
-            <h2 className="text-4xl font-bold mb-6 text-gray-900">Acerca de Mi App de Tareas</h2>
+            <h2 className="text-4xl font-bold mb-6 text-gray-900">¡Bienvenido a Mi App de Tareas!</h2>
             <p className="text-lg mb-6 text-gray-800">
-              Mi App de Tareas es una aplicación diseñada para ayudarte a organizar tu vida diaria y mejorar tu productividad de manera fácil y eficiente. Con una amplia gama de características y una interfaz intuitiva, estamos aquí para hacer que la gestión de tareas sea simple y agradable para ti.
+              Mi App de Tareas es la herramienta perfecta para organizar tu vida diaria y mejorar tu productividad de manera eficiente. ¡Descubre todas las increíbles características que tenemos para ti!
             </p>
+            <ul className="list-disc pl-6 text-lg text-gray-800 mb-6">
+              <li>Crea nuevas tareas fácilmente</li>
+              <li>Marca las tareas completadas con un solo clic</li>
+              <li>Realiza búsquedas y filtra tus tareas de forma rápida</li>
+              <li>Elimina tareas con un simple gesto</li>
+              <li>¡Toda tu información se almacena de forma segura en tu dispositivo!</li>
+            </ul>
             <p className="text-lg text-gray-800">
               Nuestra misión es proporcionarte las herramientas adecuadas para que puedas mantener tus proyectos en orden, nunca olvides una tarea importante y te mantengas siempre un paso adelante en tus metas personales y profesionales.
             </p>
